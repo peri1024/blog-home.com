@@ -1,8 +1,4 @@
-			.site-header {
-				background: #b0bec5;
-				background: url(https://peri1024.github.io/blog-home.com/mountains.png) no-repeat scroll top;
-				background-size: cover;
-			}
+
 			@media (min-width: 320px) and (max-width: 359px ) {
 				.site-header {
 					height: 80px;
