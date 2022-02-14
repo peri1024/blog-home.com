@@ -145,11 +145,7 @@ a:focus {
     padding: 0.2em;
     background-color: #2d4dff;  
 }
-
-.site-header {
-	background: url(https://www.peris-blog-home.com/wp-content/themes/nisarg/images/headers/mountains.png) no-repeat scroll top;
-	background-size: cover;
-}
+.site-header { background: #b0bec5; }
 @media (min-width: 320px) and (max-width: 359px ) {
 	.site-header {
 		height: 80px;
@@ -420,3 +416,13 @@ marker-green{
 #wpadminbar .quicklinks .menupop.hover ul .wpa_admin_color a{
     color : orange
 }
+#wpadminbar .wpforms-menu-notification-counter, #wpadminbar .wpforms-menu-notification-indicator { 
+						background-color: #d63638 !important;
+						color: #ffffff !important; 
+}
+html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
