@@ -1,5 +1,5 @@
-.site-header {
-				background: url(mountains.png) no-repeat scroll top;
+			.site-header {
+				background-image: url("mountains.png") no-repeat scroll top;
 				background-size: cover;
 			}
 			@media (min-width: 320px) and (max-width: 359px ) {
