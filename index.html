@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="stylesheet.css">
 <!DOCTYPE html>
 
 <!--[if IE 8]>
@@ -289,7 +289,6 @@ img.emoji {
 				content:"";
 			}
 		</style>
-		<style type="text/css" media="print">#wpadminbar { display:none; }</style>
 	<style type="text/css" media="screen">
 	html { margin-top: 32px !important; }
 	* html body { margin-top: 32px !important; }
@@ -298,211 +297,10 @@ img.emoji {
 		* html body { margin-top: 46px !important; }
 	}
 </style>
-			<style type="text/css" id="wp-custom-css">
-			.profileimg {
-border-radius: 50%;
-}
-#page_top{
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  background: #3f98ef;
-  opacity: 0.6;
-}
-#page_top a{
-  position: relative;
-  display: block;
-  width: 50px;
-  height: 50px;
-  text-decoration: none;
-}
-#page_top a::before{
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  content: '\f102';
-  font-size: 25px;
-  color: #fff;
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  text-align: center;
-}
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
 
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-/* 背景用*/
-body {
-  padding: 30px;
-}
-
-.btn,
-a.btn,
-button.btn {
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.5;
-  position: relative;
-  display: inline-block;
-  padding: 1rem 4rem;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  color: #212529;
-  border-radius: 0.5rem;
-}
-
-.btn-radius-gradient-wrap {
-  display: inline-block;
-
-  padding: 0.5rem;
-
-  border-radius: 100vh;
-  background: #f2f5f6;
-  background: -webkit-linear-gradient(
-    to top,
-    #f2f5f6 0%,
-    #e3eaed 37%,
-    #96a1a5 100%
-  );
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f2f5f6),
-    color-stop(37%, #e3eaed),
-    to(#96a1a5)
-  );
-  background: -webkit-linear-gradient(
-    top,
-    #f2f5f6 0%,
-    #e3eaed 37%,
-    #96a1a5 100%
-  );
-  background: linear-gradient(to bottom, #f2f5f6 0%, #e3eaed 37%, #96a1a5 100%);
-
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f5f6', endColorstr='#96a1a5', GradientType=0);
-}
-
-a.btn-radius-gradient {
-  border-radius: 100vh;
-  background: #e3eaed;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#e3eaed),
-    to(#f2f5f6)
-  );
-  background: -webkit-linear-gradient(top, #e3eaed 0%, #f2f5f6 100%);
-  background: linear-gradient(to bottom, #e3eaed 0%, #f2f5f6 100%);
-
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3eaed', endColorstr='#f2f5f6', GradientType=0);
-}
-
-a.btn-radius-gradient:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-}
-/*著者情報を消す*/
-.page .author-info {
-display: none;
-}
-/*著者情報を消す*/
-.post .author-info {
-display: none;
-}
-joge-line {
-  color: #364e96;/*文字色*/
-  padding: 0.5em 0;/*上下の余白*/
-  border-top: solid 3px #364e96;/*上線*/
-  border-bottom: solid 3px #364e96;/*下線*/
-}
-/* 立体感のあるバー */
-.rittai-ver {
-  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
-  color: #494949;/*文字色*/
-  background: #f4f4f4;/*背景色*/
-  border-left: solid 5px #7db4e6;/*左線*/
-  border-bottom: solid 3px #d7d7d7;/*下線*/
-}
-/* 上下二重線 */
-.joge-nizyu {
-  padding: 1rem 2rem;
-  border-top: 6px double #000;
-  border-bottom: 6px double #000;
-}
-/*背景グラデーション角丸大 */
-.gradation-maru-big {
-  padding: 1rem 3rem;
-  color: #fff;
-  border-radius: 100vh;
-  background-image: -webkit-gradient(linear, right top, left top, from(#9be15d), to(#00e3ae));
-  background-image: -webkit-linear-gradient(right, #9be15d 0%, #00e3ae 100%);
-  background-image: linear-gradient(to left, #9be15d 0%, #00e3ae 100%);
-}
-/*左線 */
-.left-line {
-  padding: 0.25em 0.5em;/*上下 左右の余白*/
-  color: #494949;/*文字色*/
-  background: transparent;/*背景透明に*/
-  border-left: solid 5px #7db4e6;/*左線*/
-}
-.under-line-2color {
-  border-bottom: solid 3px #cce4ff;
-  position: relative;
-}
-.under-line-2color:after {
-  position: absolute;
-  content: " ";
-  display: block;
-  border-bottom: solid 3px #5472cd;
-  bottom: -3px;
-  width: 20%;
-}
-/* 文字蛍光マーカー ピンク*/
-marker-pink{
-	background:linear-gradient(transparent 60%, #f6c 60%);
-}
-/* 文字蛍光マーカー 水色*/
-marker-blue{
-  background:linear-gradient(transparent 60%, #6cf 60%);
-}
-/* 文字蛍光マーカー 黄緑*/
-marker-green{
-	background:linear-gradient(transparent 60%, #6f6 60%);
-}		</style>
-		</head>
+</head>
 <body class="page-template-default page page-id-27 logged-in admin-bar no-customize-support">
-<style>
-                #wpadminbar .quicklinks .menupop.hover ul .wpa_admin_color a{
-                    color : orange
-                }
-				</style>	<script type="text/javascript">
+	<script type="text/javascript">
 		(function() {
 			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
 
@@ -513,31 +311,8 @@ marker-green{
 			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
 		}());
 	</script>
-			<div id="wpadminbar" class="nojq nojs">
-						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="ツールバー">
-				<ul id='wp-admin-bar-root-default' class="ab-top-menu"><li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true" href='https://www.peris-blog-home.com/wp-admin/about.php'><span class="ab-icon" aria-hidden="true"></span><span class="screen-reader-text">WordPress について</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-wp-logo-default' class="ab-submenu"><li id='wp-admin-bar-about'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/about.php'>WordPress について</a></li></ul><ul id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu"><li id='wp-admin-bar-wporg'><a class='ab-item' href='https://ja.wordpress.org/'>WordPress.org</a></li><li id='wp-admin-bar-documentation'><a class='ab-item' href='https://ja.wordpress.org/support/'>ドキュメンテーション</a></li><li id='wp-admin-bar-support-forums'><a class='ab-item' href='https://ja.wordpress.org/support/forums/'>サポート</a></li><li id='wp-admin-bar-feedback'><a class='ab-item' href='https://ja.wordpress.org/support/forum/feedback/'>フィードバック</a></li></ul></div></li><li id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' aria-haspopup="true" href='https://www.peris-blog-home.com/wp-admin/'>peri&#039;s blog</a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-site-name-default' class="ab-submenu"><li id='wp-admin-bar-dashboard'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/'>ダッシュボード</a></li></ul><ul id='wp-admin-bar-appearance' class="ab-submenu"><li id='wp-admin-bar-themes'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/themes.php'>テーマ</a></li><li id='wp-admin-bar-widgets'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/widgets.php'>ウィジェット</a></li><li id='wp-admin-bar-menus'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/nav-menus.php'>メニュー</a></li><li id='wp-admin-bar-background' class="hide-if-customize"><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/themes.php?page=custom-background'>背景</a></li><li id='wp-admin-bar-header' class="hide-if-customize"><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/themes.php?page=custom-header'>ヘッダー</a></li></ul></div></li><li id='wp-admin-bar-customize' class="hide-if-no-customize"><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/customize.php?url=https%3A%2F%2Fwww.peris-blog-home.com%2Fprofile%2F%3Fpreview_id%3D27%26preview_nonce%3D7175a35f10%26preview%3Dtrue'>カスタマイズ</a></li><li id='wp-admin-bar-updates'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/update-core.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label" aria-hidden="true">13</span><span class="screen-reader-text updates-available-text">13件の更新が利用できます</span></a></li><li id='wp-admin-bar-comments'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/edit-comments.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0件のコメントが承認待ちです</span></a></li><li id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' aria-haspopup="true" href='https://www.peris-blog-home.com/wp-admin/post-new.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label">新規</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-new-content-default' class="ab-submenu"><li id='wp-admin-bar-new-post'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/post-new.php'>投稿</a></li><li id='wp-admin-bar-new-media'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/media-new.php'>メディア</a></li><li id='wp-admin-bar-new-page'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/post-new.php?post_type=page'>固定ページ</a></li><li id='wp-admin-bar-new-user'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/user-new.php'>ユーザー</a></li><li id='wp-admin-bar-wpforms'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/admin.php?page=wpforms-builder'>WPForms</a></li></ul></div></li><li id='wp-admin-bar-edit'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/post.php?post=27&#038;action=edit'>固定ページを編集</a></li><li id='wp-admin-bar-analytify' class="menupop"><a class='ab-item' aria-haspopup="true" href='https://www.peris-blog-home.com/wp-admin/admin.php?page=analytify-dashboard' title='View complete Analytics of your site'><span class="ab-icon"></span><span id="ab-analytify" class="ab-label">Analytify</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-analytify-default' class="ab-submenu"><li id='wp-admin-bar-editpage' class="wpa_admin_color"><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/post.php?post=27&#038;action=edit#normal-sortables'>Edit Post</a></li><li id='wp-admin-bar-analytify-dashboard'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/admin.php?page=analytify-dashboard'>Dashboard</a></li><li id='wp-admin-bar-analytify-settings'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/admin.php?page=analytify-settings'>Settings</a></li></ul></div></li><li id='wp-admin-bar-wpforms-menu' class="menupop"><a class='ab-item' aria-haspopup="true" href='https://www.peris-blog-home.com/wp-admin/admin.php?page=wpforms-overview'>WPForms</a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-wpforms-menu-default' class="ab-submenu"><li id='wp-admin-bar-wpforms-forms'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/admin.php?page=wpforms-overview'>すべてのフォーム</a></li><li id='wp-admin-bar-wpforms-add-new'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/admin.php?page=wpforms-builder'>新規追加</a></li><li id='wp-admin-bar-wpforms-community'><a class='ab-item' href='https://www.facebook.com/groups/wpformsvip/' target='_blank' rel='noopener noreferrer'>コミュニティ</a></li><li id='wp-admin-bar-wpforms-support'><a class='ab-item' href='https://wpforms.com/docs/' target='_blank' rel='noopener noreferrer'>サポート</a></li></ul></div></li></ul><ul id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu"><li id='wp-admin-bar-search' class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="https://www.peris-blog-home.com/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">検索</label><input type="submit" class="adminbar-button" value="検索" /></form></div></li><li id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' aria-haspopup="true" href='https://www.peris-blog-home.com/wp-admin/profile.php'>こんにちは、<span class="display-name">peri</span> さん<img alt='' src='https://secure.gravatar.com/avatar/9c40f9bf7d74897b88d769a8f4148a85?s=26&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/9c40f9bf7d74897b88d769a8f4148a85?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-user-actions' class="ab-submenu"><li id='wp-admin-bar-user-info'><a class='ab-item' tabindex="-1" href='https://www.peris-blog-home.com/wp-admin/profile.php'><img alt='' src='https://secure.gravatar.com/avatar/9c40f9bf7d74897b88d769a8f4148a85?s=64&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/9c40f9bf7d74897b88d769a8f4148a85?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>peri</span><span class='username'>peri@yu</span></a></li><li id='wp-admin-bar-edit-profile'><a class='ab-item' href='https://www.peris-blog-home.com/wp-admin/profile.php'>プロフィールを編集</a></li><li id='wp-admin-bar-logout'><a class='ab-item' href='https://www.peris-blog-home.com/wp-login.php?action=logout&#038;_wpnonce=4179134dc6'>ログアウト</a></li></ul></div></li></ul>			</div>
-						<a class="screen-reader-shortcut" href="https://www.peris-blog-home.com/wp-login.php?action=logout&#038;_wpnonce=4179134dc6">ログアウト</a>
-					</div>
-
 		<div id="page" class="hfeed site">
 <header id="masthead"  role="banner">
-	<nav id="site-navigation" class="main-navigation navbar-fixed-top navbar-left" role="navigation">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="container" id="navigation_menu">
-			<div class="navbar-header">
-									<button type="button" class="menu-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span> 
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-									<a class="navbar-brand" href="https://www.peris-blog-home.com/">peri&#039;s blog</a>
-			</div><!-- .navbar-header -->
-			<div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="menu-menu-1" class="primary-menu"><li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-20"><a href="https://www.peris-blog-home.com/">Home</a></li>
-<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-27 current_page_item menu-item-46"><a href="https://www.peris-blog-home.com/profile/" aria-current="page">PROFILE</a></li>
-<li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="https://www.peris-blog-home.com/contact/">CONTACT</a></li>
-</ul></div>		</div><!--#container-->
-	</nav>
 	<div id="cc_spacer"></div><!-- used to clear fixed navigation by the themes js -->  
 	<div class="site-header">
 		<div class="site-branding">
