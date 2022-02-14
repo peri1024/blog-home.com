@@ -417,3 +417,6 @@ marker-blue{
 marker-green{
 	background:linear-gradient(transparent 60%, #6f6 60%);
 }
+#wpadminbar .quicklinks .menupop.hover ul .wpa_admin_color a{
+    color : orange
+}
