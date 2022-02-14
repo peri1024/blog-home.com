@@ -1,1 +1,197 @@
+.profileimg {
+border-radius: 50%;
+}
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #3f98ef;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
 
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* 背景用*/
+body {
+  padding: 30px;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btn-radius-gradient-wrap {
+  display: inline-block;
+
+  padding: 0.5rem;
+
+  border-radius: 100vh;
+  background: #f2f5f6;
+  background: -webkit-linear-gradient(
+    to top,
+    #f2f5f6 0%,
+    #e3eaed 37%,
+    #96a1a5 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f2f5f6),
+    color-stop(37%, #e3eaed),
+    to(#96a1a5)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f2f5f6 0%,
+    #e3eaed 37%,
+    #96a1a5 100%
+  );
+  background: linear-gradient(to bottom, #f2f5f6 0%, #e3eaed 37%, #96a1a5 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f5f6', endColorstr='#96a1a5', GradientType=0);
+}
+
+a.btn-radius-gradient {
+  border-radius: 100vh;
+  background: #e3eaed;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e3eaed),
+    to(#f2f5f6)
+  );
+  background: -webkit-linear-gradient(top, #e3eaed 0%, #f2f5f6 100%);
+  background: linear-gradient(to bottom, #e3eaed 0%, #f2f5f6 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3eaed', endColorstr='#f2f5f6', GradientType=0);
+}
+
+a.btn-radius-gradient:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+/*著者情報を消す*/
+.page .author-info {
+display: none;
+}
+/*著者情報を消す*/
+.post .author-info {
+display: none;
+}
+joge-line {
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+}
+/* 立体感のあるバー */
+.rittai-ver {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+}
+/* 上下二重線 */
+.joge-nizyu {
+  padding: 1rem 2rem;
+  border-top: 6px double #000;
+  border-bottom: 6px double #000;
+}
+/*背景グラデーション角丸大 */
+.gradation-maru-big {
+  padding: 1rem 3rem;
+  color: #fff;
+  border-radius: 100vh;
+  background-image: -webkit-gradient(linear, right top, left top, from(#9be15d), to(#00e3ae));
+  background-image: -webkit-linear-gradient(right, #9be15d 0%, #00e3ae 100%);
+  background-image: linear-gradient(to left, #9be15d 0%, #00e3ae 100%);
+}
+/*左線 */
+.left-line {
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #7db4e6;/*左線*/
+}
+.under-line-2color {
+  border-bottom: solid 3px #cce4ff;
+  position: relative;
+}
+.under-line-2color:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #5472cd;
+  bottom: -3px;
+  width: 20%;
+}
+/* 文字蛍光マーカー ピンク*/
+marker-pink{
+	background:linear-gradient(transparent 60%, #f6c 60%);
+}
+/* 文字蛍光マーカー 水色*/
+marker-blue{
+  background:linear-gradient(transparent 60%, #6cf 60%);
+}
+/* 文字蛍光マーカー 黄緑*/
+marker-green{
+	background:linear-gradient(transparent 60%, #6f6 60%);
+}
