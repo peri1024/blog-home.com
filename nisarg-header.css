@@ -1,12 +1,69 @@
 			.site-header {
-				background-image: url("mountains.png") no-repeat scroll top;
+				background: url(mountains.png) no-repeat scroll top;
 				background-size: cover;
+			}
+			@media (min-width: 320px) and (max-width: 359px ) {
+				.site-header {
+					height: 80px;
+				}
+			}
+			@media (min-width: 360px) and (max-width: 767px ) {
+				.site-header {
+					height: 90px;
+				}
+			}
+			@media (min-width: 768px) and (max-width: 979px ) {
+				.site-header {
+					height: 192px;
+				}
+			}
+			@media (min-width: 980px) and (max-width: 1279px ){
+				.site-header {
+					height: 245px;
+				}
+			}
+			@media (min-width: 1280px) and (max-width: 1365px ){
+				.site-header {
+					height: 320px;
+				}
+			}
+			@media (min-width: 1366px) and (max-width: 1439px ){
+				.site-header {
+					height: 341px;
+				}
+			}
+			@media (min-width: 1440px) and (max-width: 1599px ) {
+				.site-header {
+					height: 360px;
+				}
+			}
+			@media (min-width: 1600px) and (max-width: 1919px ) {
+				.site-header {
+					height: 400px;
+				}
+			}
+			@media (min-width: 1920px) and (max-width: 2559px ) {
+				.site-header {
+					height: 480px;
+				}
+			}
+			@media (min-width: 2560px)  and (max-width: 2879px ) {
+				.site-header {
+					height: 640px;
+				}
+			}
+			@media (min-width: 2880px) {
+				.site-header {
+					height: 720px;
+				}
+			}
+			.site-header{
 				-webkit-box-shadow: 0px 0px 2px 1px rgba(182,182,182,0.3);
 		    	-moz-box-shadow: 0px 0px 2px 1px rgba(182,182,182,0.3);
 		    	-o-box-shadow: 0px 0px 2px 1px rgba(182,182,182,0.3);
 		    	box-shadow: 0px 0px 2px 1px rgba(182,182,182,0.3);
 			}
-			.site-title,
+					.site-title,
 			.site-description {
 				color: #eeff00;
 			}
