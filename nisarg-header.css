@@ -1,4 +1,7 @@
-
+.site-header {
+				background: url(/backGroundHeader.jpg) no-repeat scroll top;
+				background-size: cover;
+			}
 			@media (min-width: 320px) and (max-width: 359px ) {
 				.site-header {
 					height: 80px;
