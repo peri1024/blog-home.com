@@ -1,139 +1,225 @@
-	/* Color Scheme */
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+/* Color Scheme */
 
-	/* Accent Color */
+/* Accent Color */
 
-	a:active,
-	a:hover,
-	a:focus {
-	    color: #2d4dff;
-	}
+a:active,
+a:hover,
+a:focus {
+    color: #2d4dff;
+}
 
-	.main-navigation .primary-menu > li > a:hover, .main-navigation .primary-menu > li > a:focus {
-		color: #2d4dff;
-	}
-	
-	.main-navigation .primary-menu .sub-menu .current_page_item > a,
-	.main-navigation .primary-menu .sub-menu .current-menu-item > a {
-		color: #2d4dff;
-	}
-	.main-navigation .primary-menu .sub-menu .current_page_item > a:hover,
-	.main-navigation .primary-menu .sub-menu .current_page_item > a:focus,
-	.main-navigation .primary-menu .sub-menu .current-menu-item > a:hover,
-	.main-navigation .primary-menu .sub-menu .current-menu-item > a:focus {
-		background-color: #fff;
-		color: #2d4dff;
-	}
-	.dropdown-toggle:hover,
-	.dropdown-toggle:focus {
-		color: #2d4dff;
-	}
+.main-navigation .primary-menu > li > a:hover, .main-navigation .primary-menu > li > a:focus {
+	color: #2d4dff;
+}
 
-	@media (min-width: 768px){
-		.main-navigation .primary-menu > .current_page_item > a,
-		.main-navigation .primary-menu > .current_page_item > a:hover,
-		.main-navigation .primary-menu > .current_page_item > a:focus,
-		.main-navigation .primary-menu > .current-menu-item > a,
-		.main-navigation .primary-menu > .current-menu-item > a:hover,
-		.main-navigation .primary-menu > .current-menu-item > a:focus,
-		.main-navigation .primary-menu > .current_page_ancestor > a,
-		.main-navigation .primary-menu > .current_page_ancestor > a:hover,
-		.main-navigation .primary-menu > .current_page_ancestor > a:focus,
-		.main-navigation .primary-menu > .current-menu-ancestor > a,
-		.main-navigation .primary-menu > .current-menu-ancestor > a:hover,
-		.main-navigation .primary-menu > .current-menu-ancestor > a:focus {
-			border-top: 4px solid #2d4dff;
-		}
-		.main-navigation ul ul a:hover,
-		.main-navigation ul ul a.focus {
-			color: #fff;
-			background-color: #2d4dff;
-		}
-	}
+.main-navigation .primary-menu .sub-menu .current_page_item > a,
+.main-navigation .primary-menu .sub-menu .current-menu-item > a {
+	color: #2d4dff;
+}
+.main-navigation .primary-menu .sub-menu .current_page_item > a:hover,
+.main-navigation .primary-menu .sub-menu .current_page_item > a:focus,
+.main-navigation .primary-menu .sub-menu .current-menu-item > a:hover,
+.main-navigation .primary-menu .sub-menu .current-menu-item > a:focus {
+	background-color: #fff;
+	color: #2d4dff;
+}
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+	color: #2d4dff;
+}
 
-	.main-navigation .primary-menu > .open > a, .main-navigation .primary-menu > .open > a:hover, .main-navigation .primary-menu > .open > a:focus {
-		color: #2d4dff;
+@media (min-width: 768px){
+	.main-navigation .primary-menu > .current_page_item > a,
+	.main-navigation .primary-menu > .current_page_item > a:hover,
+	.main-navigation .primary-menu > .current_page_item > a:focus,
+	.main-navigation .primary-menu > .current-menu-item > a,
+	.main-navigation .primary-menu > .current-menu-item > a:hover,
+	.main-navigation .primary-menu > .current-menu-item > a:focus,
+	.main-navigation .primary-menu > .current_page_ancestor > a,
+	.main-navigation .primary-menu > .current_page_ancestor > a:hover,
+	.main-navigation .primary-menu > .current_page_ancestor > a:focus,
+	.main-navigation .primary-menu > .current-menu-ancestor > a,
+	.main-navigation .primary-menu > .current-menu-ancestor > a:hover,
+	.main-navigation .primary-menu > .current-menu-ancestor > a:focus {
+		border-top: 4px solid #2d4dff;
 	}
-
-	.main-navigation .primary-menu > li > .sub-menu  li > a:hover,
-	.main-navigation .primary-menu > li > .sub-menu  li > a:focus {
+	.main-navigation ul ul a:hover,
+	.main-navigation ul ul a.focus {
 		color: #fff;
 		background-color: #2d4dff;
 	}
+}
 
-	@media (max-width: 767px) {
-		.main-navigation .primary-menu .open .sub-menu > li > a:hover {
-			color: #fff;
-			background-color: #2d4dff;
-		}
-	}
+.main-navigation .primary-menu > .open > a, .main-navigation .primary-menu > .open > a:hover, .main-navigation .primary-menu > .open > a:focus {
+	color: #2d4dff;
+}
 
-	.sticky-post{
+.main-navigation .primary-menu > li > .sub-menu  li > a:hover,
+.main-navigation .primary-menu > li > .sub-menu  li > a:focus {
+	color: #fff;
+	background-color: #2d4dff;
+}
+
+@media (max-width: 767px) {
+	.main-navigation .primary-menu .open .sub-menu > li > a:hover {
 		color: #fff;
-	    background: #2d4dff; 
-	}
-	
-	.entry-title a:hover,
-	.entry-title a:focus{
-	    color: #2d4dff;
-	}
-
-	.entry-header .entry-meta::after{
-	    background: #2d4dff;
-	}
-
-	.fa {
-		color: #2d4dff;
-	}
-
-	.btn-default{
-		border-bottom: 1px solid #2d4dff;
-	}
-
-	.btn-default:hover, .btn-default:focus{
-	    border-bottom: 1px solid #2d4dff;
-	    background-color: #2d4dff;
-	}
-
-	.nav-previous:hover, .nav-next:hover{
-	    border: 1px solid #2d4dff;
-	    background-color: #2d4dff;
-	}
-
-	.next-post a:hover,.prev-post a:hover{
-	    color: #2d4dff;
-	}
-
-	.posts-navigation .next-post a:hover .fa, .posts-navigation .prev-post a:hover .fa{
-	    color: #2d4dff;
-	}
-
-
-	#secondary .widget-title::after{
-		position: absolute;
-	    width: 50px;
-	    display: block;
-	    height: 4px;    
-	    bottom: -15px;
 		background-color: #2d4dff;
-	    content: "";
 	}
+}
 
-	#secondary .widget a:hover,
-	#secondary .widget a:focus{
-		color: #2d4dff;
+.sticky-post{
+	color: #fff;
+    background: #2d4dff; 
+}
+
+.entry-title a:hover,
+.entry-title a:focus{
+    color: #2d4dff;
+}
+
+.entry-header .entry-meta::after{
+    background: #2d4dff;
+}
+
+.fa {
+	color: #2d4dff;
+}
+
+.btn-default{
+	border-bottom: 1px solid #2d4dff;
+}
+
+.btn-default:hover, .btn-default:focus{
+    border-bottom: 1px solid #2d4dff;
+    background-color: #2d4dff;
+}
+
+.nav-previous:hover, .nav-next:hover{
+    border: 1px solid #2d4dff;
+    background-color: #2d4dff;
+}
+
+.next-post a:hover,.prev-post a:hover{
+    color: #2d4dff;
+}
+
+.posts-navigation .next-post a:hover .fa, .posts-navigation .prev-post a:hover .fa{
+    color: #2d4dff;
+}
+
+
+#secondary .widget-title::after{
+	position: absolute;
+    width: 50px;
+    display: block;
+    height: 4px;    
+    bottom: -15px;
+	background-color: #2d4dff;
+    content: "";
+}
+
+#secondary .widget a:hover,
+#secondary .widget a:focus{
+	color: #2d4dff;
+}
+
+#secondary .widget_calendar tbody a {
+	color: #fff;
+	padding: 0.2em;
+    background-color: #2d4dff;
+}
+
+#secondary .widget_calendar tbody a:hover{
+	color: #fff;
+    padding: 0.2em;
+    background-color: #2d4dff;  
+}
+
+.site-header {
+	background: url(https://www.peris-blog-home.com/wp-content/themes/nisarg/images/headers/mountains.png) no-repeat scroll top;
+	background-size: cover;
+}
+@media (min-width: 320px) and (max-width: 359px ) {
+	.site-header {
+		height: 80px;
 	}
-
-	#secondary .widget_calendar tbody a {
-		color: #fff;
-		padding: 0.2em;
-	    background-color: #2d4dff;
+}
+@media (min-width: 360px) and (max-width: 767px ) {
+	.site-header {
+		height: 90px;
 	}
+}
+@media (min-width: 768px) and (max-width: 979px ) {
+	.site-header {
+		height: 192px;
+	}
+}
+@media (min-width: 980px) and (max-width: 1279px ){
+	.site-header {
+		height: 245px;
+	}
+}
+@media (min-width: 1280px) and (max-width: 1365px ){
+	.site-header {
+		height: 320px;
+	}
+}
+@media (min-width: 1366px) and (max-width: 1439px ){
+	.site-header {
+		height: 341px;
+	}
+}
+@media (min-width: 1440px) and (max-width: 1599px ) {
+	.site-header {
+		height: 360px;
+	}
+}
+@media (min-width: 1600px) and (max-width: 1919px ) {
+	.site-header {
+		height: 400px;
+	}
+}
+@media (min-width: 1920px) and (max-width: 2559px ) {
+	.site-header {
+		height: 480px;
+	}
+}
+@media (min-width: 2560px)  and (max-width: 2879px ) {
+	.site-header {
+		height: 640px;
+	}
+}
+@media (min-width: 2880px) {
+	.site-header {
+		height: 720px;
+	}
+}
+.site-header{
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(182,182,182,0.3);
+-moz-box-shadow: 0px 0px 2px 1px rgba(182,182,182,0.3);
+-o-box-shadow: 0px 0px 2px 1px rgba(182,182,182,0.3);
+box-shadow: 0px 0px 2px 1px rgba(182,182,182,0.3);
+}
+		.site-title,
+.site-description {
+	color: #eeff00;
+}
+.site-title::after{
+	background: #eeff00;
+	content:"";
+}
 
-	#secondary .widget_calendar tbody a:hover{
-		color: #fff;
-	    padding: 0.2em;
-	    background-color: #2d4dff;  
-	}	
 .profileimg {
 border-radius: 50%;
 }
