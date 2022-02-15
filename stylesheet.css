@@ -208,7 +208,6 @@ marker-green{
   z-index: 1;
   color: #bfbfbf;
   font-size: 1.6rem;
-  background: rgba(255, 255, 255, 0.1);
   transition: transform ease-out 0.2s;
 }
 .socialEffect__box li {
