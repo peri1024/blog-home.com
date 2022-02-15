@@ -195,3 +195,23 @@ marker-blue{
 marker-green{
 	background:linear-gradient(transparent 60%, #6f6 60%);
 }
+/* ツイッター用アイコン設定 */
+.icon-twitter::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-twitter {
+  display: inline-block;
+  color: #fff;
+}
+.icon-twitter:hover {
+  background: #00b0ed;
+  transform: scale(0.9);
+}
