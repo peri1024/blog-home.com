@@ -292,7 +292,7 @@ flex-flow:row wrap;
 }
 /* アイコンボタン同士の余白調整 */
 .snsbtniti2 li{
-flex:0 0 48%;
+flex:0 0 100%;
 text-align:center!important;
 }
 .snsbtniti p {
