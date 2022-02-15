@@ -295,6 +295,70 @@ flex-flow:row wrap;
 flex:0 0 50%;
 text-align:center!important;
 }
+/* ボタン全体 */
+.flowbtn9{
+display:inline-block;	
+font-size:40px;
+text-decoration:none;
+transition:.5s;
+}
+/* Twitter */
+.flowbtn9 .fa-twitter-square{
+color:#55acee;
+}
+/* Instagram */
+.flowbtn9 .fa-instagram{
+color:#c6529a;
+}
+/* Facebook*/
+.flowbtn9 .fa-facebook-square{
+color:#3b5998;
+}
+/* Feedly */
+.flowbtn9 .fa-rss-square{
+color:#6cc655;
+}
+/* Pocket */
+.flowbtn9 .fa-get-pocket{
+color:#ef3f56;
+}
+/* はてブ */
+.flowbtn9 .fa-bootstrap{
+color:#1ba5dc;	
+}
+/* YouTube */
+.flowbtn9 .fa-youtube-square{
+color:#fc0d1c;
+}
+/* LINE@ */
+.flowbtn9 .fa-line{
+color:#00c300;
+}
+/* お問い合わせメール */
+.flowbtn9 .fa-envelope-square{
+color:#f3981d;	
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti{
+padding:0!important;
+}
+/* アイコン全体の位置 */
+.snsbtniti{
+display:flex;
+flex-flow:row wrap;
+justify-content:space-between;
+}
+/* アイコン同士の余白 */
+.snsbtniti li{
+flex:0 0 33%;
+text-align:center!important;
+}
+/* アイコンにマウスを乗せた時 */
+.flowbtn9:hover{
+-webkit-transform: translateY(-5px);
+-ms-transform: translateY(-5px);
+transform: translateY(-5px);
+}
 .snsbtniti p {
 display: none;
 }
