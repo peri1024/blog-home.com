@@ -195,6 +195,22 @@ marker-blue{
 marker-green{
 	background:linear-gradient(transparent 60%, #6f6 60%);
 }
+/* 共通のアイコンエフェクト */
+.socialEffect__link {
+  margin: .3em;
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #bfbfbf;
+  font-size: 1.6rem;
+  background: rgba(255, 255, 255, 0.1);
+  transition: transform ease-out 0.2s;
+}
 /* ツイッター用アイコン設定 */
 .icon-twitter::before {
   content: "";
