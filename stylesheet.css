@@ -399,7 +399,7 @@ display: none;
   max-width: 100%;
   color: #555;
   font-size: 16px;
-  background: #e0edff;
+  background: #ffc0cb;
 }
 
 .balloon1-right:before {
@@ -409,7 +409,7 @@ display: none;
   left: 100%;
   margin-top: -15px;
   border: 15px solid transparent;
-  border-left: 15px solid #e0edff;
+  border-left: 15px solid #ffc0cb;
 }
 
 .balloon1-right p {
